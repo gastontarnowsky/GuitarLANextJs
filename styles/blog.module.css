@@ -1,0 +1,78 @@
+.post {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.contenido {
+    padding: 1.5rem;
+}
+.contenido h3 {
+    font-weight: 900;
+    font-size: 2.8rem;
+    margin: 0;
+}
+.resumen {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.texto {
+    white-space: pre-wrap;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+
+.publicacionB {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px #ccc;
+    transition-property: box-shadow;
+    transition-duration: 300ms;
+    height: 750px;
+}
+
+.publicacionB:hover {
+    box-shadow: 3px 3px 10px #cf993b;
+}
+
+.publi {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.imagenB {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+@media (min-width: 238px) {
+    .publicacionB {
+        height: 580px;
+    }
+}
+@media (min-width: 538px) {
+    .publicacionB {
+        height: 680px;
+    }
+}
+@media (min-width: 630px) {
+    .publicacionB {
+        height: 740px;
+    }
+}
+@media (min-width: 768px) {
+   
+    .publicacionB {
+        height: 590px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .publicacionB {
+        height: 540px;
+    }
+}

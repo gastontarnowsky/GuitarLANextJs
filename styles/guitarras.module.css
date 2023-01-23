@@ -1,0 +1,143 @@
+.guitarra, .guitar {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.guitar {
+    margin: 60px auto;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px #cf993b;
+    position: relative;
+}
+.imag{
+    border-radius: 30px;
+}
+.contenido {
+    padding: 2rem;
+}
+.contenido h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+.descripcion {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    font-size: 1.8rem;
+}
+.precio {
+    color: var(--primary);
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+
+.publicacion {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px #ccc;
+    transition-property: box-shadow;
+    transition-duration: 300ms;
+}
+
+.publicacion:hover {
+    box-shadow: 3px 3px 10px #cf993b;
+}
+
+.formulario {
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    width: 28rem;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 7px #aaa;
+    border-radius: 20px;
+}
+.mover {
+    display: flex;
+}
+.formulario label {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.formulario select {
+    margin-left: 6rem;
+    margin-top: 0.7rem;
+    text-align: center;
+    width: 10rem;
+    font-size: 2rem;
+    border: 1px solid #222;
+    border-radius: 5px;
+    height: 4rem;
+}
+
+.formulario input[type="submit"] {
+    width: 25rem;
+    margin-top: 2rem;
+    background-color: var(--primary);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 1.4rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+.formulario input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--black);
+}
+
+.btn_eliminar {
+    all: unset;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+}
+
+.btn_eliminar:hover{
+    cursor:pointer;
+}
+
+.error {
+    width: 90%;
+    background-color: rgb(42, 169, 42);
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px #222;
+    border: none;
+    cursor: pointer;
+    animation-name: opacidad;
+    animation-duration: 300ms;
+}
+.error:hover {
+    background-color: var(--black);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #888;
+}
+
+
+
+@keyframes opacidad {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
